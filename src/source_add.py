@@ -2,7 +2,7 @@ import obspython as obs
 
 
 class Example:
-    def crete_text_source(self):
+    def create_text_source(self):
         current_scene = obs.obs_frontend_get_current_scene()
         scene = obs.obs_scene_from_source(current_scene)
         settings = obs.obs_data_create()
@@ -22,7 +22,7 @@ eg = Example()  # class created ,obs part starts
 
 
 def add_pressed(props, prop):
-    eg.crete_text_source()
+    eg.create_text_source()
 
 
 def script_description():
