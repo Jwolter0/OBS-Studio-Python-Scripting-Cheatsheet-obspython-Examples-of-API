@@ -18,7 +18,7 @@ Also check out [issues](https://github.com/upgradeQ/OBS-Studio-Python-Scripting-
 - [Additional input](#additional-input)
 - [obs_data](#obs_data)
 - [save settings as json](#save-settings-as-json)
-- [Source's and filters with identifier string](#sources-and-filters-with-identifier-string)
+- [Sources and filters with identifier string](#sources-and-filters-with-identifier-string)
 - [Add source](#add-source)
 - [Move source](#move-source)
 - [Add filter to source](#add-filter-to-source)
@@ -201,9 +201,9 @@ See also :
 https://obsproject.com/docs/reference-settings.html  
 https://obsproject.com/docs/scripting.html#getting-the-current-script-s-path  
 
-# Source's and filters with identifier string
+# Sources and filters with identifier string
 To identify with `obs_source_get_unversioned_id` , or creating source/filter.
-## Source's
+## Sources
 | Name | Source type identifier string |
 | --- | --- | 
 | Browser | browser_source | 
